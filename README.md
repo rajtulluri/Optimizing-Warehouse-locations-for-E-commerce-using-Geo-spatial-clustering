@@ -20,13 +20,11 @@ The model begins with an application of density-based spatial clustering algorit
 Following the spatial clustering phase, the model transitions into an optimization stage where the identified potential locations are refined for logistical efficiency and cost-effectiveness. This optimization phase leverages several advanced Random Optimization (RO) techniques:
 
 <ul>
-   <li>Particle Swarm Optimization (PSO): Used for its efficacy in navigating multi-dimensional search spaces, PSO adjusts the coordinates of potential warehouse locations by simulating a social behavior among particle agents that 'swarm' towards optimal solutions.</li>
-
-    <li>Nelder-Mead Algorithm: Employs a simplex of points in the solution space to find the minimum or maximum of a function without the need for gradients, which is particularly useful for problems involving noisy measurement data.</li>
-
-    <li>Simulated Annealing (SA): This probabilistic technique is used to approximate the global optimum of a given function, ideal for finding efficient solutions in large search spaces with numerous local optima.</li>
+<li>Particle Swarm Optimization (PSO): Used for its efficacy in navigating multi-dimensional search spaces, PSO adjusts the coordinates of potential warehouse locations by simulating a social behavior among particle agents that 'swarm' towards optimal solutions.</li>
+<li>Nelder-Mead Algorithm: Employs a simplex of points in the solution space to find the minimum or maximum of a function without the need for gradients, which is particularly useful for problems involving noisy measurement data.</li>
+<li>Simulated Annealing (SA): This probabilistic technique is used to approximate the global optimum of a given function, ideal for finding efficient solutions in large search spaces with numerous local optima.</li>
 </ul>
 
 These RO techniques are integrated with the Google Maps API, which provides real-time data on travel distances and durations. The optimization considers these factors, along with the weight parameters optimized for each distance metric, to finalize the warehouse locations that best reduce delivery times and operational costs.
 
-For a deeper dive into the methodologies and findings of this project, please refer to our detailed conference paper available <a href=>here</a>. This publication provides extensive insights into the research background, detailed algorithmic approaches, and the implications of our findings on the future of e-commerce logistics optimization.
+For a deeper dive into the methodologies and findings of this project, please refer to our detailed conference paper available <a href=https://github.com/rajtulluri/Optimizing-Warehouse-locations-for-E-commerce-using-Geo-spatial-clustering/blob/main/Optimizing%20warehouse%20locations%20for%20E-commerce.pdf>here</a>. This publication provides extensive insights into the research background, detailed algorithmic approaches, and the implications of our findings on the future of e-commerce logistics optimization.
